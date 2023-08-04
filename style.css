@@ -1,6 +1,76 @@
 @import url("reset.css");
 
+@font-face {
+  font-family: "GT";
+  src: url("./fonts/GT-America-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 .kymani {
   cursor: pointer;
+}
+
+
+.checkboard {
+  background: repeating-conic-gradient(#EF6262 0% 25%, #FFE89E 0% 50%) 50% /
+    20px 20px; 
+  background-size: 50px 50px;
+  background-position:
+    0 0,
+    50px 50px;
+  animation: slideAnimation 9s linear infinite;
+  z-index: 100;
+}
+
+@keyframes slideAnimation {
+  0% {
+    background-position:
+      0 0,
+      50px 50px;
+  }
+  100% {
+    background-position:
+      100px 100px,
+      150px 150px;
+  }
+}
+
+
+#kymani-btn {
+  font-family: "GT", sans-serif;
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  z-index: 999;
+}
+
+#kymani-btn:hover {
+  background-color: #fff;
+}
+
+#kymani-btn:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  #kymani-btn {
+    min-width: 120px;
+    padding: 0 25px;
+  }
 }
