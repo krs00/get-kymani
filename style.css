@@ -10,7 +10,20 @@
 
 .kymani {
   cursor: pointer;
+  max-width: 260px;
+} 
+
+.kymani {
+  cursor: pointer;
+  max-width: 260px;
 }
+
+@media (max-width: 768px) {
+  .kymani {
+      max-width: 150px;
+  }
+}
+
 
 
 .checkboard {
