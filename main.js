@@ -27,7 +27,6 @@ $(document).ready(function() {
       position: 'fixed',
       left: randomLeft + 'px',
       top: randomTop + 'px',
-      'max-width': '260px',
     });
 
     
@@ -36,6 +35,7 @@ $(document).ready(function() {
     
     newKymani.draggable({
       containment: 'window', 
+
       start: function(event, ui) {
         $(this).appendTo('body');
       },
