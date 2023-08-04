@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const kymaniBtn = $('#kymani-btn');
-  const imagesArray = ['./img/kymani1.png', './img/kymani2.png', './img/kymani3.png', './img/kymani4.png'];
+  const imagesArray = ['./img/kymani1.png', './img/kymani2.png', './img/kymani3.png', './img/kymani4.png', './img/kymani5.png', './img/kymani6.png'];
 
   function generateKymani() {
 
