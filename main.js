@@ -26,7 +26,7 @@ $(document).ready(function() {
     newKymani.css({
       position: 'fixed',
       left: randomLeft + 'px',
-      top: randomTop + 'px',
+      top: randomTop + 'px'
     });
 
     
