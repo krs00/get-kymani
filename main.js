@@ -36,7 +36,6 @@ $(document).ready(function() {
     
     newKymani.draggable({
       containment: 'window', 
-
       start: function(event, ui) {
         $(this).appendTo('body');
       },
