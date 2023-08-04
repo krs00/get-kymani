@@ -15,12 +15,12 @@
 
 .kymani {
   cursor: pointer;
-  max-width: 300px;
+  min-width: 250px;
 }
 
 @media (max-width: 768px) {
   .kymani {
-      max-width: 200px;
+      min-width: 100px;
   }
 }
 
