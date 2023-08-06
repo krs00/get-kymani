@@ -11,18 +11,15 @@
 .kymani {
   cursor: pointer;
   max-width: 260px;
-} 
-
-.kymani {
-  cursor: pointer;
-  min-width: 250px;
 }
+
 
 @media (max-width: 768px) {
   .kymani {
-      min-width: 100px;
+    max-width: 190px;
   }
 }
+
 
 
 
@@ -79,11 +76,4 @@
 #kymani-btn:active {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
-}
-
-@media (min-width: 768px) {
-  #kymani-btn {
-    min-width: 120px;
-    padding: 0 25px;
-  }
 }
